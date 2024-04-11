@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dee website store with payment</title>
+
+    <!--Link to CSS-->
+    <link rel="stylesheet" href="src/style.css" />
+    <!--Box icons-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Nav bar-->
+    <header>
+      <!--Nav-->
+      <div class="nav container">
+        <!--Logo-->
+        <a href="#" class="logo">Ecommerce store</a>
+        <!--Cart icon-->
+        <i class="bx bx-shopping-bag" id="cart-icon" data-quantity="0"></i>
+        <!--Cart-->
+        <div class="cart">
+          <h2 class="cart-title">Your cart</h2>
+          <!--cart-content-->
+          <div class="cart-content"></div>
+          <!--Total-->
+          <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">R0</div>
+          </div>
+
+          <!--Buy button-->
+          <button type="button" class="btn-buy">Pay now</button>
+          <!--close cart-->
+
+          <i class="bx bx-window-close" id="close-cart"></i>
+        </div>
+      </div>
+    </header>
+    <!--Products-->
+    <section class="shop container">
+      <h2 class="section-title">Shop products</h2>
+      <!--shop content-->
+      <div class="shop-content">
+        <!--Box1-->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqK0HaSqq9rFAAdI3Rgj1m0I2a0VRCeiAWyXa1rv3RmgBeYhUJDmDpJ7msvt8UVtdVWA1lMJ4XBz0GyQZaxR0JcCN81yBDNeIJX_BL1zNqoMRmke9uXZ006VS3Kdf0aJPJcjNp846zlzqGBB7k83g3W4J5gJYygLjFt-PYFAshNm5qyJ6X2VPOGb3AukU/s300/jacket.jpg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">SHORT WHITE JACKET</h2>
+          <span class="price">R500</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--Box2-->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGiBYKoTm1syZS5U0s4j2GCHt50n6p3IbsQCEkAP69b-LmGHGncTZwnkTxbj9XrgHWCkOUPauKbhyphenhyphenpMC_mT1N2xWU_zMTHQUNWRLDNwDK3zsDcbIdf68VSZKs-LsmHgI4rppcSZ_PkdK8rCOFwJuBN0pFnFEjIe59pVdY9v7lTCBrTVBRiyLIyVPgoXLc/s300/jacket3.jpg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">LNG PINK JACKET</h2>
+          <span class="price">R700</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--Box3-->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitOzn00SX5LEg4aYOz50JXhHG5mHaj7VX5EwFgNl33Bg-X33vYchbqF3LawgsqSCm7mqjFohwUV9GfJygx-kN5d3aflVKDOGzB2FtnR9IXcceCaXo60Tve79pzOpXn2JUwu9Ef2nIYdZkznVprptJP2Q9jP4yXLlCxgguKtmdhhy1JJrxvTmKWUFij5LU/s300/jacket2.jpg
+            alt="
+            class="product-img"
+          />
+          <h2 class="product-title">LONG WHITE JACKET</h2>
+          <span class="price">R890</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+      </div>
+    </section>
+    <!--Link to JS-->
+    <script src="js/main.js"></script>
+    <script src="js/cart.js"></script>
+   
+  </body>
+</html>
